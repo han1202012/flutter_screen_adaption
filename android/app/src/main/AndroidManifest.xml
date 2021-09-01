@@ -2,6 +2,7 @@
     package="com.example.flutter_screen_adaption">
    <application
         android:label="flutter_screen_adaption"
+        android:resizeableActivity="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -42,5 +43,7 @@
         <meta-data
             android:name="android.max_aspect"
             android:value="2.1"/>
+       <meta-data android:name="android.min_aspect"
+           android:value="1.0" />
     </application>
 </manifest>
